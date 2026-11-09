@@ -2,6 +2,8 @@
 
 **A Raspberry Pi-powered handheld network reconnaissance and diagnostic tool.**
 
+![PiScout handheld network scanner](docs/images/piscout.jpg)
+
 PiScout is a portable network utility built with Python, a Raspberry Pi Zero 2 W, and an Adafruit OLED Bonnet. It provides a menu-driven interface for Wi-Fi scanning, network diagnostics, host discovery, and TCP port scanning using Nmap.
 
 The goal of this project is to create a compact, standalone device for exploring and troubleshooting networks while developing practical skills in Linux, Python, networking, and cybersecurity.
@@ -117,9 +119,7 @@ source .venv/bin/activate
 
 ```bash
 pip install \
-  adafruit-circuitpython-ssd1306 \
-  adafruit-blinka \
-  pillow
+  pip install -r requirements.txt
 ```
 
 ### 5. Run PiScout
