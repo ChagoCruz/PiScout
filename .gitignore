@@ -1,0 +1,23 @@
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Local configuration
+device_aliases.json
+.env
+.env.*
+
+# Backups
+*_backup.py
+*.save
+
+# Editor files
+.vscode/
+.idea/
+
+# Logs
+*.log
